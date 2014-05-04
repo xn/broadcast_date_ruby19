@@ -339,7 +339,7 @@ class Date
 
 
   # Get the date as a Broadcast Date, [year, week_of_year, day_of_week]
-  def broadcast() jd_to_commercial(jd, @sg) end # :nodoc:
+  def broadcast() jd_to_broadcast(jd, @sg) end # :nodoc:
 
   def bweeknum0() jd_to_bweeknum(jd, 0, @sg) end # :nodoc:
   def bweeknum1() jd_to_bweeknum(jd, 1, @sg) end # :nodoc:
